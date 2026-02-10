@@ -1,21 +1,14 @@
-import java.util.*;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        // TODO: implement solution
-    }
-}
-
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         String soal = sc.next();
 
         switch (soal) {
 
+            // ========= SOAL 1 =========
             case "Soal1": {
                 int a = sc.nextInt();
                 int b = sc.nextInt();
@@ -29,6 +22,7 @@ public class Main {
                 break;
             }
 
+            // ========= SOAL 2 =========
             case "Soal2": {
                 float x = sc.nextFloat();
                 float y = sc.nextFloat();
@@ -41,6 +35,7 @@ public class Main {
                 break;
             }
 
+            // ========= SOAL 3 =========
             case "Soal3": {
                 int N = sc.nextInt();
 
@@ -54,6 +49,7 @@ public class Main {
                 break;
             }
 
+            // ========= SOAL 4 =========
             case "Soal4": {
                 String S = sc.next();
 
@@ -67,6 +63,7 @@ public class Main {
                 break;
             }
 
+            // ========= SOAL 5 =========
             case "Soal5": {
                 int i = Integer.parseInt(sc.next());
                 double d = Double.parseDouble(sc.next());

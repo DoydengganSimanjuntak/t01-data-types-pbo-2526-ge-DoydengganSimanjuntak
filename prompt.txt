@@ -1,3 +1,5 @@
 memasukkan Soal
 masih salah
 telah memperbaiki kode yang masih salah
+memperbaiki
+memperbaiki tugas
